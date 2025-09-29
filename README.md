@@ -24,3 +24,9 @@ b) or in case of intersection, for each intersection point :
 Q(vi) (plot these 2 points as blue and red points),
 • improve the accuracy of this intersection thanks to the Newton-Raphson method (plot
 these 2 new points as blue and red crosses)
+
+# Result:
+in the case of this figure , the result is :
+--> INTERSECTIONS IN PARAMETRIC DOMAIN :
+Intersection 1: u=0.838600, v=0.008982, point=(2.172449, 1.087073)
+Intersection 2: u=0.009998, v=0.493649, point=(-2.763441, 1.970375)
