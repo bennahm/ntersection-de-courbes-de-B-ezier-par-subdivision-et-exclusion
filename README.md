@@ -10,3 +10,17 @@ of ever-smaller convex hulls (which are also ever closer to the curve).
 3. The intersection of two convex polygons (convex hulls) is complex. It is much simpler to
 determine the smallest rectangle parallel to the axes that contains each convex hull, then apply
 the exclusion principle again and intersect these rectangles.
+
+
+
+# we also give a figure that explain the process:
+1. The first step involves in the mouse acquiring two BÉzier curves of different degrees.
+2. after that with a right clique  to make the curve
+3. the algorithm must :
+a) either conclude that the two curves do not intersect,
+b) or in case of intersection, for each intersection point :
+• display an approximation of the intersection point in the 2D plane as a green point,
+• determine an approximation of the intersection parameters ui and vi such that P (ui) ≈
+Q(vi) (plot these 2 points as blue and red points),
+• improve the accuracy of this intersection thanks to the Newton-Raphson method (plot
+these 2 new points as blue and red crosses)
