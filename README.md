@@ -1,2 +1,12 @@
 # ntersection-de-courbes-de-B-ezier-par-subdivision-et-exclusion
-Let’s now consider the problem of the intersection of two B´ezier 2D-curves of degree n and m respectively. 1. Each curve is included in the convex hull of its control polygon. Thus, if these two convex hulls do not intersect, we conclude by the exclusion principle that the two curves do not intersect..
+Let’s consider the problem of the intersection of two B´ezier 2D-curves of degree n and m
+respectively.
+1. Each curve is included in the convex hull of its control polygon. Thus, if these two convex hulls
+do not intersect, we conclude by the exclusion principle that the two curves do not intersect.
+2. This approach is particularly interesting when combined with the principle of subdividing B´ezier
+curves. Specifically, in the case where the two convex hulls intersect, the subdivision of each
+B´ezier curve (for example, according to parameter α = 1/2) leads to testing the intersection of
+of ever-smaller convex hulls (which are also ever closer to the curve).
+3. The intersection of two convex polygons (convex hulls) is complex. It is much simpler to
+determine the smallest rectangle parallel to the axes that contains each convex hull, then apply
+the exclusion principle again and intersect these rectangles.
